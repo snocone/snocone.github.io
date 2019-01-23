@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-<link href="seminar.css" type="text/css" rel="stylesheet">
-<title>Southwest Jiu Jitsu</title>
+
+<link href="school.css" type="text/css" rel="stylesheet">
+<title>Southwest Jiu Jitsu Tournaments</title>
+
 <head>
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100i"
   rel="stylesheet">
   <h1 id="banner">Southwest Jiu Jitsu</h1>
-  <p>Bringing you the most up to date content on Brazilian Jiu Jitsu in
-    California, Nevada, New Mexico, Colorado, and Texas area.</p>
+  <p>Brazilian Jiu Jitsu Tournaments in the southwest region.</p>
+
   <div class="menu">
-    <div class="box"><a href="./southwest jiu jitsu.html">Tournaments</a></div>
-    <div class="box"><a href="./seminar.html">Seminars</a></div>
-    <div class="box"><a href="./school.html">Schools</a></div>
+    <button class="box" onclick="indFunction()">Tournaments</button>
+    <button class="box" onclick="semFunction()">Seminars</button>
+    <button class="box" onclick="schFunction()">Schools</button>
+    <div class="dropdown">
+      <button onclick="calFunction" class="dropbtn">Pick a State</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">New Mexico</a>
+        <a href="#">Texas</a>
+        <a href="#">Colorado</a>
+        <a href="#">Nevada</a>
+        <a href="#">Arizona</a>
+      </div>
+    </div>
   </div>
+
+  <script src="school.js"></script>
 </head>
-<body>
-  <div class="seminar">Cleveland High School seminar</div>
-
-
-
-
-
-
-
+<body class="grid">
+   <ul>
+     <li>Know of any seminars in the area? contact the admin at nmjits@gmail.com</li>
+   </ul>
 </body>
 
 <footer></footer>
