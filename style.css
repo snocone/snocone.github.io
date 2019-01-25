@@ -100,5 +100,6 @@ p {
   
   .grid {
     width: 100%;
+    display: flex;
   }
 }
