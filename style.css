@@ -95,7 +95,8 @@ p {
 }
 
 @media only screen and (max-width: 481px) {
-  head {
-    width: 100%
+  #banner{
+    font-size: 2rem;
   }
+    
 }
