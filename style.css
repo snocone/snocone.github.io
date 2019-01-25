@@ -97,4 +97,9 @@ p {
   #banner {
     width: 270px;
   }
+  
+  .grid {
+    width: 100%;
+    display: block;
+  }
 }
