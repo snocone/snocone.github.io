@@ -73,7 +73,7 @@ p {
 
 .grid {
   flex-grow: 3;
-  display: inline-block;
+  display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   grid-gap: 200px;
   margin-left: 100px;
