@@ -95,6 +95,10 @@ p {
 }
 
 @media screen and (max-width: 481px) {
+  #banner {
+    width: 100%
+  }
+  
   .grid {
     width: 100%
   }
