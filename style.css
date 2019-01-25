@@ -1,12 +1,4 @@
 
-p {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  display: block;
-}
-
-
 #banner {
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -14,9 +6,16 @@ p {
   display: block;
 }
 
+p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  display: block;
+}
 
 .menu {
   padding: 50px 100px 50px 100px;
+  display: inline-block;
 }
 
 .dropbtn {
@@ -28,6 +27,7 @@ p {
   border: none;
   cursor: pointer;
   border-radius: 10%;
+  display: inline-block;
 }
 
 .dropbtn: hover, .dropbtn:focus {
